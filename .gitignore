@@ -1,7 +1,7 @@
 bin/
 dist/
-webapp/src/manifest.ts
 server/manifest.go
+server/dist
 
 # Mac
 .DS_Store

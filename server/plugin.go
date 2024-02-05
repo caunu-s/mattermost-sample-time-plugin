@@ -22,7 +22,7 @@ type Plugin struct {
 
 // ServeHTTP demonstrates a plugin that handles HTTP requests by greeting the world.
 func (p *Plugin) ServeHTTP(c *plugin.Context, w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello, world!")
+	fmt.Fprint(w, "Hello, WorldtimeAPI!")
 }
 
 // See https://developers.mattermost.com/extend/plugins/server/reference/
