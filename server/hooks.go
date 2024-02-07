@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"strings"
-    "net/http"
-    "encoding/json"
+	"net/http"
+	"encoding/json"
 	"io/ioutil"
 
 	"github.com/mattermost/mattermost/server/public/model"
